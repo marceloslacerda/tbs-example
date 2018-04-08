@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[packages]
+tbs = {git = "https://github.com/marceloslacerda/tbs.git", editable = true}
+clize = "*"
+requests = "*"
+"fabric3" = "*"
+conz = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]
