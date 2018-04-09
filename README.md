@@ -12,8 +12,23 @@ The run function goes over a few environment variables and set them for
 you. If you want to use this in production, make sure that the variables
 are set before running fabric.
 
-For more instructions on what each variable does check
+For more instructions on what each variable does check the
 [tbs README](https://github.com/marceloslacerda/tbs/blob/master/README.rst).
+
+Once your bot is up and running search for it on telegram and start
+talking to it. Talking in private should always work.
+
+To talk to it in a group you have to add it to the group and make it
+admin, otherwise it will not be able to read your messages. You also
+have to begin all your commands with it's name and it's aliases, it
+will inform you what are those when you send him --help or -h.
+
+The bot always takes interprets as case insensitive unless if you wrap
+some term with quotes (single or double). For instance:
+
+When you send `mybot hello` the bot will respond with `Hi!` but if you
+send `mybot "Hello"` it will inform you that Hello is not a valid
+command.
 
 License
 -------
